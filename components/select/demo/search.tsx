@@ -12,7 +12,7 @@ const onSearch = (value: string) => {
 const App: React.FC = () => (
   <Select
     showSearch
-    placeholder="Select a person"
+    placeholder="请选择民族"
     optionFilterProp="children"
     onChange={onChange}
     onSearch={onSearch}
@@ -21,16 +21,16 @@ const App: React.FC = () => (
     }
     options={[
       {
-        value: 'jack',
-        label: 'Jack',
+        value: '汉族',
+        label: '汉族',
       },
       {
-        value: 'lucy',
-        label: 'Lucy',
+        value: '回族',
+        label: '回族',
       },
       {
-        value: 'tom',
-        label: 'Tom',
+        value: '蒙古族',
+        label: '蒙古族',
       },
     ]}
   />
